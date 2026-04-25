@@ -30,8 +30,9 @@ defmodule WolframConverter.MixProject do
 
   defp package do
     [
-      licenses: ["Apache 2.0"],
-      links: %{}
+      files: ~w(lib .formatter.exs mix.exs README.md LICENSE CHANGELOG.md),
+      licenses: ["Apache-2.0"],
+      links: %{"GitHub" => "https://github.com/sragli/wolfram_converter"}
     ]
   end
 end
