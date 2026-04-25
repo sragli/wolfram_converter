@@ -1,0 +1,57 @@
+<!-- livebook:{"app_settings":{"slug":"wolfram_import"}} -->
+
+# Sample Wolfram Notebook
+
+## Introduction
+
+This notebook demonstrates various Wolfram cell types that will be converted to Livebook format.
+
+### Mathematical Operations
+
+We can perform basic arithmetic:
+
+```elixir
+1 + 1
+
+# => 2
+```
+
+More complex computations:
+
+```elixir
+# TODO: Translate from Wolfram/Mathematica to Elixir
+# Original Wolfram code:
+# Table[n^2, {n, 1, 10}]
+# 
+# # => {1, 4, 9, 16, 25, 36, 49, 64, 81, 100}
+```
+
+### Printing Output
+
+```elixir
+# TODO: Translate from Wolfram/Mathematica to Elixir
+# Original Wolfram code:
+# Print["Hello from Wolfram!"]
+# 
+# # [Print] Hello from Wolfram!
+```
+
+## Text Formatting
+
+This text contains **bold** and _italic_ formatting.
+
+## Lists and Items
+
+Key concepts:
+
+- First important item
+
+- Second important item
+
+  - A nested subitem
+
+- Third item at the top level
+
+## Conclusion
+
+This concludes the sample notebook. The converter handles: - Headings - Text cells - Code cells with output - Formatted text - Lists

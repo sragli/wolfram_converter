@@ -1,0 +1,62 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest *)
+
+Notebook[{
+Cell["Sample Wolfram Notebook", "Title"],
+
+Cell["Introduction", "Section"],
+
+Cell["This notebook demonstrates various Wolfram cell types that will be \
+converted to Livebook format.", "Text"],
+
+Cell["Mathematical Operations", "Subsection"],
+
+Cell["We can perform basic arithmetic:", "Text"],
+
+Cell["1 + 1", "Input"],
+Cell["2", "Output"],
+
+Cell["More complex computations:", "Text"],
+
+Cell["Table[n^2, {n, 1, 10}]", "Input"],
+Cell["{1, 4, 9, 16, 25, 36, 49, 64, 81, 100}", "Output"],
+
+Cell["Printing Output", "Subsection"],
+
+Cell["Print[\"Hello from Wolfram!\"]", "Input"],
+Cell["Hello from Wolfram!", "Print"],
+
+Cell["Text Formatting", "Section"],
+
+Cell[TextData[{"This text contains ", StyleBox["bold", FontWeight->"Bold"], 
+" and ", StyleBox["italic", FontSlant->"Italic"], " formatting."}], "Text"],
+
+Cell["Lists and Items", "Section"],
+
+Cell["Key concepts:", "Text"],
+
+Cell["First important item", "Item"],
+Cell["Second important item", "Item"],
+Cell["A nested subitem", "Subitem"],
+Cell["Third item at the top level", "Item"],
+
+Cell["Conclusion", "Section"],
+
+Cell["This concludes the sample notebook. The converter handles:\n- Headings \
+\n- Text cells\n- Code cells with output\n- Formatted text\n- Lists", "Text"]
+},
+WindowSize->{808, 755},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (December 2, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"abc12345-1234-1234-1234-abcdef123456"
+]
